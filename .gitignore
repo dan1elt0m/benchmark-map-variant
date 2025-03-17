@@ -4,4 +4,3 @@ project/
 blog/
 .build.sbt.swp
 .idea/
-build.sbt
