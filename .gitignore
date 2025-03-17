@@ -1,0 +1,7 @@
+/.bsp/
+target/
+project/
+blog/
+.build.sbt.swp
+.idea/
+build.sbt
