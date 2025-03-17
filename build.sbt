@@ -11,10 +11,9 @@ lazy val root = (project in file("."))
 .settings(
   name := "SparkBenchmark",
   libraryDependencies ++= Seq(
-     "org.apache.spark" %% "spark-core" % "4.0.0-preview1",
-     "org.apache.spark" %% "spark-sql" % "4.0.0-preview1",
+     "org.apache.spark" %% "spark-core" % "4.0.0-preview2",
+     "org.apache.spark" %% "spark-sql" % "4.0.0-preview2",
      "org.knowm.xchart" % "xchart" % "3.8.0",
-      "io.delta" %% "delta-spark" % "4.0.0rc1"
   ),
   dependencyOverrides += "com.github.luben" % "zstd-jni" % "1.5.6-5"
 )
